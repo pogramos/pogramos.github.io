@@ -1,0 +1,67 @@
+# Site settings
+title: Guilherme Ramos
+email: guilherme.hor@gmail.com
+url: https://github.com/pogramos/pogramos.github.io
+description: "Engenheiro de software apaixonado por tecnologia e desenvolvimento. Durante toda a minha aventura como desenvolvedor, já tive a oportunidade de estar na pele do desenvolvedor web, back-end e mobile e Inegavelmente todas elas agregaram um montante de pontos de experiência incalculáveis para cada um dos meus níveis galgados ao longo dos anos."
+keywords: "pogramos,guilherme ramos,software developer,software engineer,iOS Developer"
+skills: "Software Engineer - iOS Developer"
+meta_author: Guilherme Ramos
+
+# Google webmaster tools
+google_verify: aAsunk8Wi9iMpXfAjxofTGKRihqBeWulhm8Ez_1K75U
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: pogramos
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 8205B4 #80B3FF
+  primary-rgb: "130, 5, 180" #"128,179,255"
+  secondary: 41145F #FD6E8A
+  secondary-dark: 8205b4 #A2122F
+
+# Footer settings
+footer:
+  copyright: Guilherme Ramos
+  location: Local
+  social: Social
+  credits: Tema
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/pogramos
+  - title: github
+    url: http://github.com/pogramos
+  - title: linkedin
+    url: https://www.linkedin.com/in/guilhermehor
+
+# Postal address (add as many lines as necessary)
+address:
+  # - line: 3481 Melrose Place
+  - line: São Paulo, Brasil
+
+# Credits content
+credits: 'Tema opensource criado por <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
