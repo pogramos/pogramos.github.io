@@ -25,10 +25,11 @@ disqus_shortname: pogramos
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 8205B4 #80B3FF
-  primary-rgb: "130, 5, 180" #"128,179,255"
-  secondary: 41145F #FD6E8A
-  secondary-dark: 8205b4 #A2122F
+  primary: 262626 #80B3FF
+  primary-rgb: "38, 38, 38" #"128,179,255"
+  secondary: 383838 #FD6E8A
+  secondary-dark: 808080 #A2122F
+  active-dark: ABB1AB #ABB1AB
 
 # Footer settings
 footer:
